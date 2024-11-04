@@ -202,11 +202,11 @@ function App() {
           </button>
         </div>
 
-        <img 
-          src="/images/logo.png" 
-          alt="Ping Pong Club Airvault" 
-          className="w-full max-w-md mx-auto mb-8" 
-        />
+       <img 
+  src={process.env.PUBLIC_URL + '/images/logo.svg'} 
+  alt="Ping Pong Club Airvault" 
+  className="w-full max-w-md mx-auto mb-8" 
+/>
 
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
